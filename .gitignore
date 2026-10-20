@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados gerados (regeneráveis)
+*.npy
+*.mat
+
+# Figuras geradas (regeneráveis)
+*.png
+*.pdf
+
+# Windows
+Thumbs.db
+desktop.ini
