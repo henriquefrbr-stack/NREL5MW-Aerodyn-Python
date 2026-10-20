@@ -19,7 +19,12 @@
 
 import csv
 import re
+import sys
 from pathlib import Path
+
+# Encoding para consola Windows
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 import numpy as np
 import matplotlib.pyplot as plt

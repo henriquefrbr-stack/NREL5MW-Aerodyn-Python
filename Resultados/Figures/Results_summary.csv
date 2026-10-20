@@ -1,0 +1,5 @@
+Step,Corrections,Cp_max,TSR_opt,V_rated_ms,Thrust_max_kN,V_at_Thrust_max_ms,Pitch_at_25ms_deg
+STEP1,no corrections,0.5352515,7.1999998,11.0,718.65319,10.5,23.309999
+STEP1,tip loss + 3D corrections,0.47267362,7.1999998,11.5,737.0345,11.0,23.219999
+STEP2,no corrections,0.52968222,7.1999998,11.0,711.9265600000001,10.5,23.219999
+STEP2,tip loss + 3D corrections,0.46805403,7.4000001,11.5,729.83544,11.0,23.129999
