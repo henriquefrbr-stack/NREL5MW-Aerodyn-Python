@@ -22,11 +22,11 @@ import matplotlib.pyplot as plt
 # -------------------------------------------------------------------------
 # CONFIGURACION
 # -------------------------------------------------------------------------
-BASE_DIR  = Path(__file__).parent.parent    # carpeta "CALCULO AUTOMATICO"
+BASE_DIR  = Path(__file__).parent           # carpeta "Estudo em Python"
 
 STUDY_DIR = BASE_DIR / "ESTUDIO_CUERDA"
-BASE_QBLADE_DIR = BASE_DIR / "6.0" / "Resultados" / "STEP1"
-TIP_QBLADE_DIR  = BASE_DIR / "6.0" / "Resultados" / "TIP_CORRECTIONS"
+BASE_QBLADE_DIR = BASE_DIR / "Resultados" / "STEP1"
+TIP_QBLADE_DIR  = BASE_DIR / "Resultados" / "TIP_CORRECTIONS"
 
 OUT_FILE  = STUDY_DIR / "TipChord_comparison.png"
 

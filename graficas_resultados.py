@@ -27,14 +27,14 @@ import matplotlib.pyplot as plt
 # -------------------------------------------------------------------------
 # CONFIGURACION
 # -------------------------------------------------------------------------
-BASE_DIR = Path(__file__).parent.parent    # carpeta "CALCULO AUTOMATICO"
+BASE_DIR = Path(__file__).parent           # carpeta "Estudo em Python"
 
 # Si "Resultados" no está junto al script, se busca automáticamente
 RESULTS_FOLDER = BASE_DIR / "Resultados"
 STEPS          = ["STEP1", "STEP2"]
 
 # Archivo de pala para los gráficos de geometría
-BLADE_FILE = BASE_DIR / "QBlade_Re6.0" / "NREL5MW_STEP1_N9.bld"
+BLADE_FILE = BASE_DIR.parent / "QBlade_Re6.0" / "NREL5MW_STEP1_N9.bld"
 
 # Aliases: nombres de simulaciones QBlade que no siguen el patrón estándar
 ALIASES = {
